@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oneRMCalculator/static/css/main.dfedce9b.css",
+    "main.js": "/oneRMCalculator/static/js/main.28d5ffca.js",
+    "static/js/453.3607bf04.chunk.js": "/oneRMCalculator/static/js/453.3607bf04.chunk.js",
+    "index.html": "/oneRMCalculator/index.html",
+    "main.dfedce9b.css.map": "/oneRMCalculator/static/css/main.dfedce9b.css.map",
+    "main.28d5ffca.js.map": "/oneRMCalculator/static/js/main.28d5ffca.js.map",
+    "453.3607bf04.chunk.js.map": "/oneRMCalculator/static/js/453.3607bf04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfedce9b.css",
+    "static/js/main.28d5ffca.js"
+  ]
+}
