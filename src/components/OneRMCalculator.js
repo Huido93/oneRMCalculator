@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from './../il8n.js';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -77,6 +77,11 @@ const OneRMCalculator = () => {
   const [selectedFormulaIndex, setSelectedFormulaIndex] = useState(0);
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    // Update the lang attribute of the HTML document whenever the language changes
+    document.documentElement.lang = language;
+  }, [language]);
 
   const handleCalculate = () => {
     const weightNum = parseFloat(weight);
